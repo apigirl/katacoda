@@ -1,12 +1,14 @@
-# Create a new integration
+# Getting Started - Solution
 
-## Goals
-- Create a `github_repo` integration
-- Print the repository name as a debug log line.
-- Create a unit test to check your implementation is working
+First you need to install PyGithub.
+- `pip install PyGithub`
 
-## Hints
-- Read [the documentation](https://github.com/DataDog/integrations-core/blob/master/docs/dev/new_check_howto.md)
-- Check the [AgentCheck Class](https://github.com/DataDog/integrations-core/blob/master/datadog_checks_base/datadog_checks/base/checks/base.py) to see what you can use from there.
-- Debug log are only printed to stdout if test execution fails.
+Then you can start python and print the repository fullname by running the following lines.
+
+```python
+from github import Github
+g = Github()
+r = g.get_repo("Datadog/integration-extras")
+r.full_name
+```
 
