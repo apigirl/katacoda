@@ -1,3 +1,5 @@
+
+
 # Getting Started
 
 ## Setup
@@ -6,9 +8,9 @@ Run the following commands to get started:
 - `cd integration-extras`
 - `virtualenv venv3 -p python3`
 - `source venv3/bin/active`
-- pip install "datadog-checks-dev[cli]"
-- ddev config set extras "/root/dd/integrations-extras"
-- ddev config set repo extras
+- `pip install "datadog-checks-dev[cli]"`
+- `ddev config set extras "/root/dd/integrations-extras"`
+- `ddev config set repo extras`
 
 At this point, you cloned the integartion-extras repository, created a python virtual environment, install the datadog cli and configured it.
 
@@ -17,7 +19,7 @@ Usually you would write a specification. In this case we created one for you and
 
 
 ## Goals
-- Read the specification
+- Read the specification document
 - [Create a Github access token](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line)
 - Using Python CLI, use `PyGithub` to print the `integrations-extras` repo fullname
 
