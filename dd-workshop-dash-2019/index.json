@@ -1,19 +1,59 @@
 {
-  "title": "Build a Datadog Integrations - Advanced Workshop Dash 2019",
-  "description": "Build a Datadog Integrations from scratch",
+  "title": "Build a Datadog Integrations",
+  "description": "Build a Datadog Integrations from scratch - Advanced Workshop DASH 2019",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Getting Started",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Getting Started - Solution",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Create a new Integration",
         "text": "step3.md"
+      },
+      {
+        "title": "Create a new Integartion - Solution",
+        "text": "step4.md"
+      },
+      {
+        "title": "Add Configurations",
+        "text": "step5.md"
+      },
+      {
+        "title": "Add Configurations - Solution",
+        "text": "step6.md"
+      },
+      {
+        "title": "Add Service Checks",
+        "text": "step7.md"
+      },
+      {
+        "title": "Add Service Checks - Solution",
+        "text": "step8.md"
+      },
+      {
+        "title": "Add Metrics",
+        "text": "step9.md"
+      },
+      {
+        "title": "Add Metrics - Solution",
+        "text": "step10.md"
+      },
+      {
+        "title": "Packaging",
+        "text": "step11.md"
+      },
+      {
+        "title": "Packaging - Solution",
+        "text": "step12.md"
+      },
+      {
+        "title": "What's next",
+        "text": "step13.md"
       }
     ],
     "intro": {
