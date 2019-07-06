@@ -1,6 +1,3 @@
-# Getting Started
-
-## Solution
 First you need to install the PyGithub dependency:
 - `pip install PyGithub`
 

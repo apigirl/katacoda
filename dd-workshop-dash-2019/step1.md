@@ -1,6 +1,5 @@
-# Getting Started
+# Setup
 
-## Setup
 Run the following commands to get started:
 1. Clone the community driven integration repository:
   - `git clone git@github.com:DataDog/integrations-extras.git`
@@ -17,6 +16,8 @@ Run the following commands to get started:
   - [Installation Instructions](https://app.datadoghq.com/account/settings#agent/ubuntu)
   - [Check that you can see your instance running](https://app.datadoghq.com/infrastructure)
 
-## Goals
+# Goals
+
 - Read the "Github Repo" integration Specification
 - Using the Python CLI, use `PyGithub` to print the `integrations-extras` repo fullname
+

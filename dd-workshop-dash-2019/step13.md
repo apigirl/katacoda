@@ -1,11 +1,10 @@
-# Getting Serious
+Congratulation, you just finished this workshop!
 
-This is the last section of this workshop and most probably the most challenging :)
+In this workshop, you created and deployed a brand new community integration.
 
-Take this opportunity to improve your integration. 
-We listed below ideas of improvements.
+# Optional
 
-## Ideas
+If you want to dig deeper here are improvements you could try to add to your integration:
 - Submit number of commits per contributors
   - How can you minimize the number of API calls?
 - Add custom tags in your configuration

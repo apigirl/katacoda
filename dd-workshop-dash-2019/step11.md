@@ -1,6 +1,5 @@
-# Packaging
+# Goals
 
-## Goals
 - Update the `manifest.json` file.
 - Update the `metadata.csv` file.
 - Update the `service_checks.json` file.
@@ -8,7 +7,8 @@
 - Create a wheel, install and configure the integration.
 - Make sure metrics are being submitted to your datadog account.  
 
-## Hints
+# Hints
+
 - See `manifest.json` [documentation](https://docs.datadoghq.com/developers/integrations/new_check_howto/#manifest-file).
 - See `metadata.csv` [documentation](https://docs.datadoghq.com/developers/integrations/new_check_howto/#metrics-metadata-file).
 - See `service_checks.json` [documentation](https://docs.datadoghq.com/developers/integrations/new_check_howto/#service-check-file).
