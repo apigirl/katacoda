@@ -2,6 +2,7 @@
 
 Run the following commands to get started:
 1. Clone the community driven integration repository:
+  - `mkdir $HOME/dd && cd $HOME/dd``
   - `git clone git@github.com:DataDog/integrations-extras.git`
   - `cd integration-extras`
 2. Setup a python virtual environment
