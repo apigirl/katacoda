@@ -1,4 +1,4 @@
-# Goal
+# Goals
 
 - Create a `Github Repo` integration
 - Print the repository name as a debug log line.
