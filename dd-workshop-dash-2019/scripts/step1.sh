@@ -23,9 +23,9 @@ cd /workspace/integration-extras
 virtualenv venv -p python3
 source venv/bin/active
 
-#echo "Install and configure the datadog-check-dev cli..." | wall -n
-#pip install "datadog-checks-dev[cli]"
-#ddev config set extras "/workspace/integrations-extras"
-#ddev config set repo extras
+echo "Install and configure the datadog-check-dev cli..." | wall -n
+pip install "datadog-checks-dev[cli]"
+ddev config set extras "/workspace/integrations-extras"
+ddev config set repo extras
 
 
