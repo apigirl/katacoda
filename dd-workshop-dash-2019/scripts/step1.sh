@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 
+echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+
 echo "Cloning the workshop repository..." | wall -n
 mkdir /workshop && cd /workshop
-git clone -q git@github.com:gzussa/katacoda.git
+git -q clone git@github.com:gzussa/katacoda.git
 
 git clone -q git@github.com:gzussa/integrations-extras.git /integrations-extras
 cd /integrations-extras && cd /integrations-extras
