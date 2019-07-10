@@ -17,9 +17,9 @@ mkdir /workspace/solution
 
 echo "Cloning the integrations-extras repository..." | wall -n
 git clone git@github.com:DataDog/integrations-extras.git /workspace/integration-extras
-cd /workspace/integration-extras
 
 echo "Setup a python3 virtual environment..." | wall -n
+cd /workspace/integration-extras
 virtualenv venv -p python3
 source venv/bin/active
 
