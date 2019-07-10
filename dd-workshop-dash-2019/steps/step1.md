@@ -4,10 +4,10 @@ Run the following commands to get started:
 1. Clone the community driven integration repository:
   - `mkdir $HOME/dd && cd $HOME/dd`
   - `git clone git@github.com:DataDog/integrations-extras.git`
-  - `cd integration-extras`
+  - `cd integrations-extras`
 2. Setup a python virtual environment
   - `virtualenv venv -p python3`
-  - `source venv/bin/active`
+  - `source venv/bin/activate`
 3. Install and configure the Datadog CLI
   - `pip install "datadog-checks-dev[cli]"`
   - `ddev config set extras "/root/dd/integrations-extras"`

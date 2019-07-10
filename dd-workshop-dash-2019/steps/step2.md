@@ -6,6 +6,6 @@ Then, you can run the following script to print the repo full name:
   ```python
   from github import Github
   g = Github()
-  r = g.get_repo("Datadog/integration-extras")
+  r = g.get_repo("Datadog/integrations-extras")
   r.full_name
   ```

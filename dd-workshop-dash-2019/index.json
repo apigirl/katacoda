@@ -7,55 +7,68 @@
     "steps": [
       {
         "title": "Getting Started",
-        "text": "step1.md"
+        "text": "steps/step1.md",
+        "courseData": "scripts/step1.sh"
       },
       {
         "title": "Getting Started - Solution",
-        "text": "step2.md"
+        "text": "steps/step2.md",
+        "courseData": "scripts/step2.sh"
       },
       {
         "title": "Create a new Integration",
-        "text": "step3.md"
+        "text": "steps/step3.md",
+        "courseData": "scripts/step3.sh"
       },
       {
-        "title": "Create a new Integartion - Solution",
-        "text": "step4.md"
+        "title": "Create a new Integration - Solution",
+        "text": "steps/step4.md",
+        "courseData": "scripts/step4.sh"
       },
       {
         "title": "Add Configurations",
-        "text": "step5.md"
+        "text": "steps/step5.md",
+        "courseData": "scripts/step5.sh"
       },
       {
         "title": "Add Configurations - Solution",
-        "text": "step6.md"
+        "text": "steps/step6.md",
+        "courseData": "scripts/step6.sh"
       },
       {
         "title": "Add Service Checks",
-        "text": "step7.md"
+        "text": "steps/step7.md",
+        "courseData": "scripts/step7.sh"
       },
       {
         "title": "Add Service Checks - Solution",
-        "text": "step8.md"
+        "text": "steps/step8.md",
+        "courseData": "scripts/step8.sh"
       },
       {
         "title": "Add Metrics",
-        "text": "step9.md"
+        "text": "steps/step9.md",
+        "courseData": "scripts/step9.sh"
       },
       {
         "title": "Add Metrics - Solution",
-        "text": "step10.md"
+        "text": "steps/step10.md",
+        "courseData": "scripts/step10.sh"
       },
       {
         "title": "Packaging",
-        "text": "step11.md"
+        "text": "steps/step11.md",
+        "courseData": "scripts/step11.sh"
       },
       {
         "title": "Packaging - Solution",
-        "text": "step12.md"
+        "text": "steps/step12.md",
+        "courseData": "scripts/step12.sh"
       },
       {
         "title": "What's next",
-        "text": "step13.md"
+        "text": "steps/step13.md",
+        "courseData": "scripts/step13.sh"
       }
     ],
     "intro": {
@@ -66,7 +79,8 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/workshop"
   },
   "backend": {
     "imageid": "ubuntu"
