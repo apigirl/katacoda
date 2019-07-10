@@ -80,7 +80,7 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "/workshop"
+    "uieditorpath": "/workspace"
   },
   "backend": {
     "imageid": "ubuntu"
