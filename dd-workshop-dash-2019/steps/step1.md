@@ -17,8 +17,10 @@ Run the following commands to get started:
   - [Installation Instructions](https://app.datadoghq.com/account/settings#agent/ubuntu)
   - [Check that you can see your instance running](https://app.datadoghq.com/infrastructure)
 
+`cd /workspace/integration-extras/`
+`source venv/bin/activate`
 # Goals
 
 - Read the "Github Repo" integration Specification
-- Using the Python CLI, use `PyGithub` to print the `integrations-extras` repo fullname
+- Using the Python CLI, use `PyGithub` to print the `integrations-extras` repo name
 
