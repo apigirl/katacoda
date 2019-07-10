@@ -2,9 +2,9 @@
 
 echo "Cloning the workshop repository..." | wall -n
 mkdir /workshop && cd /workshop
-git clone git@github.com:gzussa/katacoda.git
+git clone -q git@github.com:gzussa/katacoda.git
 
-git clone git@github.com:gzussa/integrations-extras.git /integrations-extras
+git clone -q git@github.com:gzussa/integrations-extras.git /integrations-extras
 cd /integrations-extras && cd /integrations-extras
 git checkout gzu/gr
 
@@ -14,7 +14,7 @@ git checkout gzu/gr
 #mkdir /workspace/solution
 #
 #echo "Cloning the integrations-extras repository..." | wall -n
-#git clone git@github.com:DataDog/integrations-extras.git /workspace/integration-extras
+#git clone -q git@github.com:DataDog/integrations-extras.git /workspace/integration-extras
 #
 #echo "Setup a python3 virtual environment..." | wall -n
 #cd /workspace/integration-extras
