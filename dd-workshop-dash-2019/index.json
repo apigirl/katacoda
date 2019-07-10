@@ -72,10 +72,10 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "steps/intro.md"
     },
     "finish": {
-      "text": "finish.md"
+      "text": "steps/finish.md"
     }
   },
   "environment": {
