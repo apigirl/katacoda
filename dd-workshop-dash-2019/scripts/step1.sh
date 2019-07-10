@@ -24,8 +24,14 @@ virtualenv venv -p python3
 source venv/bin/active
 
 echo "Install and configure the datadog-check-dev cli..." | wall -n
+echo "Running `pip install \"datadog-checks-dev[cli]\"`" | wall -n
 pip install "datadog-checks-dev[cli]"
+echo "Running `ddev config set extras \"/workspace/integrations-extras\"`" | wall -n
 ddev config set extras "/workspace/integrations-extras"
+echo "Running `ddev config set repo extras`" | wall -n
 ddev config set repo extras
+
+echo "Your workspace setup is done! Enjoy the workshop :) " | wall -n
+
 
 
