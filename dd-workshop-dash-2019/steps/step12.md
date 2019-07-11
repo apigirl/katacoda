@@ -9,7 +9,7 @@ You can find our complete solution in the `/workspace/solution` folder.
 
 To build and install the integration, run the following commands:
 1. `cd github_repo && python setup.py bdist_wheel` to build the integration wheel.
-2. `sudo -u dd-agent datadog-agent integration install -w dist/datadog_github_repo-0.0.1-py3-none-any.whl` to install the integration.
+2. `sudo -u dd-agent datadog-agent integration install -w dist/datadog_github_repo-0.0.1-py2-none-any.whl` to install the integration.
 3. `cp /etc/datadog-agent/conf.d/github_repo/conf.yaml.example /etc/datadog-agent/conf.d/github_repo/conf.yaml` then edit the `conf.yaml` with your Github access token and repository name.
 4. `sudo service datadog-agent restart` to restart the agent
 5. `sudo datadog-agent status` to see if your integration is running correctly
