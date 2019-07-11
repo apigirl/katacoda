@@ -21,7 +21,7 @@ Top section of the right section of the screen.
 
 You will be able to access all files and edit them. You can also create or delete files.
 The editor is pointing at your workspace folder. This folder contains two folders:
-- `integrations-extra`: this is the community repository to create new integration. It is where you will create your integration.
+- `integrations-extras`: this is the community repository to create new integration. It is where you will create your integration.
 - `solution`: This is where you will find our implementation of a given step. This folder is automatically refresh as you are moving forward from one step to another.
 
 ## Terminal panel

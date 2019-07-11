@@ -2,7 +2,7 @@ Congratulation, you just finished this workshop!
 
 In this workshop, you created and deployed a brand new community integration.
 
-If you want to go further, here are thing you could try to do:
+If you want to go further, here are things you could try to do:
 - Submit number of commits per contributors using tags.
   - How can you minimize the number of API calls?
 - Add custom tags in your configuration
