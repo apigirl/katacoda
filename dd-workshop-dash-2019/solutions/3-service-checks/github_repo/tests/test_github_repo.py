@@ -23,8 +23,8 @@ def test_check_invalid_configs(instance):
     with pytest.raises(ConfigurationError):
         check.check({"repository_name": "bar"})
 
-    # check = GithubRepoCheck('github_repo', {'access_token': "<YOUR_TOKEN>"}, {})
-    # check.check(instance)
+    check = GithubRepoCheck('github_repo', {'access_token': "<YOUR_ACCESS_TOKEN>"}, {})
+    check.check(instance)
 
 
 def test_check_service_checks(instance, aggregator):
@@ -35,6 +35,6 @@ def test_check_service_checks(instance, aggregator):
     sc = aggregator.service_checks(GithubRepoCheck.SERVICE_CHECK_NAME)
     assert sc[0].status == check.CRITICAL
 
-    # check = GithubRepoCheck('github_repo', {'access_token': "<YOUR_TOKEN>"}, {})
-    # check.check(instance)
-    # assert sc[0].status == check.OK
+    check = GithubRepoCheck('github_repo', {'access_token': "<YOUR_ACCESS_TOKEN>"}, {})
+    check.check(instance)
+    assert sc[0].status == check.OK

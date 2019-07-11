@@ -1,11 +1,14 @@
-# Goals
+Congratulation, you were able to use the `PyGithub` library.
 
-- Create a `Github Repo` integration
+In this section, we are going to create an integration to run the same logic.
+
+# Goals
+- Create a `Github Repo` integration.
 - Print the repository name as a debug log line.
-- Create a unit test to check your implementation is working 
+- Create a unit test to check your implementation is working.
 
 # Hints
-- Read the [How to create a new integration](https://github.com/DataDog/integrations-core/blob/master/docs/dev/new_check_howto.md) documentation.
-- Check the [AgentCheck Class](https://github.com/DataDog/integrations-core/blob/master/datadog_checks_base/datadog_checks/base/checks/base.py) to see what you can use from there.
-- Debug log are only printed to stdout if test execution fails
+- Read the [How to create a new integration](https://docs.datadoghq.com/developers/integrations/new_check_howto/#scaffolding) documentation.
+- Check the [AgentCheck Class](https://github.com/DataDog/integrations-core/blob/master/datadog_checks_base/datadog_checks/base/checks/base.py) to see what you can use to write logs.
+- Debug log are only printed to `stdout` if test execution fails.
 

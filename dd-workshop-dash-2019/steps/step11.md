@@ -1,3 +1,7 @@
+Congratulation, your implementation is almost over.
+Now we need to package the integration so it can be added to the Datadog Ecosystem.
+Once done, we will be able to install the integration and run it with the agent.
+
 # Goals
 
 - Update the `manifest.json` file.
@@ -6,6 +10,7 @@
 - Update the `README.md` file.
 - Create a wheel, install and configure the integration.
 - Make sure metrics are being submitted to your datadog account.  
+- Create a Datadog Dashboard for this integration.
 
 # Hints
 
