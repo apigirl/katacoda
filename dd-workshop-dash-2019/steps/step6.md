@@ -35,7 +35,9 @@ Edit the `github_repo/tests/test_github_repo.py` file with the following code.
 
 ![test_github_repo-2](https://raw.githubusercontent.com/gzussa/katacoda/master/dd-workshop-dash-2019/assets/test_github_repo-2.png)
 
-__NOTE:__ Replace `<YOUR_ACCESS_TOKEN>` with your Github Access Token.
+__NOTES:__ 
+- Replace `<YOUR_ACCESS_TOKEN>` with your Github Access Token.
+
 
 We are using the `instance` parameter in the test method `def test_check_invalid_configs(instance):`
 As a consequence, you need to set the `repository_name` parameter for that instance.

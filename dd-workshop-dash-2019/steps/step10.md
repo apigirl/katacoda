@@ -14,7 +14,7 @@ Below is a example on how we mocked `PyGithub` methods to test the integration. 
 
 ![test_github_repo-4](https://raw.githubusercontent.com/gzussa/katacoda/master/dd-workshop-dash-2019/assets/test_github_repo-4.png)
 
-__NOTE:__
+__NOTES:__
 - Replace `<YOUR_ACCESS_TOKEN>` with your Github Access Token.
 - The `aggregator` stub is created by default and can be used to assert what is being submitted by the check method.
 - We use the `mock.patch` annotation to mock `PyGithub` methods.

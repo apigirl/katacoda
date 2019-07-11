@@ -2,14 +2,16 @@
 Before to get started, wait for the setup script to finish.
 The setup script will print in the terminal the following message when it will be done:
 
-"Your workspace setup is done! Enjoy the workshop :) "
+```
+Your workspace setup is done! Enjoy the workshop :)
+```
 
 The setup script did the following things for you:
 1. Clone the community driven integration repository into the workspace directory:
   - `git clone git@github.com:DataDog/integrations-extras.git /workspace/integration-extras`
 
 2. Setup a python virtual environment
-  - `virtualenv venv -p python3`
+  - `virtualenv venv -p python2`
   - `source venv/bin/activate`
 3. Install and configure the Datadog CLI
   - `pip install "datadog-checks-dev[cli]"`
