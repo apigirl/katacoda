@@ -8,12 +8,12 @@ You can find our complete solution in the `/workspace/solution` folder.
 # Build
 
 To build and install the integration, run the following commands:
-1. `cd github_repo && python setup.py bdist_wheel` to build the integration wheel.
-2. `sudo -u dd-agent datadog-agent integration install -w dist/datadog_github_repo-0.0.1-py2-none-any.whl` to install the integration.
-3. `cp /etc/datadog-agent/conf.d/github_repo/conf.yaml.example /etc/datadog-agent/conf.d/github_repo/conf.yaml` then edit the `conf.yaml` with your Github access token and repository name.
-4. `sudo service datadog-agent restart` to restart the agent
-5. `sudo datadog-agent status` to see if your integration is running correctly
-6. `sudo -u dd-agent -- datadog-agent check github_repo` to run the check and see metrics submitted.
+1. `cd github_repo && python setup.py bdist_wheel`{{execute}} to build the integration wheel.
+2. `sudo -u dd-agent datadog-agent integration install -w dist/datadog_github_repo-0.0.1-py2-none-any.whl`{{execute}} to install the integration.
+3. `cp /etc/datadog-agent/conf.d/github_repo/conf.yaml.example /etc/datadog-agent/conf.d/github_repo/conf.yaml`{{execute}} then edit the `conf.yaml` with your Github access token and repository name.
+4. `sudo service datadog-agent restart`{{execute}} to restart the agent
+5. `sudo datadog-agent status`{{execute}} to see if your integration is running correctly
+6. `sudo -u dd-agent -- datadog-agent check github_repo`{{execute}} to run the check and see metrics submitted.
 7. Log in to your Datadog account.
 8. Go to the metrics explorer and check that you are receiving the `github_repo.contributors` metrics.
 9. Create a new dashboard and display all metrics submitted.

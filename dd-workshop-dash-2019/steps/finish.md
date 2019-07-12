@@ -1,6 +1,6 @@
-well done it's finished
+Well done it's finished!
 
 We hope you enjoyed this workshop.
 
-Thanks and if you have questions feel free to ping help@datadoghq.com.
+Thanks, and if you have questions, feel free to ping help@datadoghq.com.
 

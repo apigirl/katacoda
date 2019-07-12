@@ -5,7 +5,7 @@ In this section, we are going to create an integration to run the same logic.
 # Goals
 - Create a `Github Repo` integration.
 - Print the repository name as a debug log line.
-- Create a unit test to check your implementation is working.
+- Create a unit test to check that your implementation is working.
 
 # Hints
 - Read the [How to create a new integration](https://docs.datadoghq.com/developers/integrations/new_check_howto/#scaffolding) documentation.

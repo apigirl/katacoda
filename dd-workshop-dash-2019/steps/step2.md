@@ -1,5 +1,5 @@
-First you need to install the PyGithub dependency:
-- `pip install PyGithub`
+First, you need to install the PyGithub dependency:
+- `pip install PyGithub`{{execute}}
 
 Then, you can run the following script to print the repo name:
 - `python`

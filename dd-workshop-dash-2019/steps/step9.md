@@ -3,10 +3,10 @@ It is now time to collect and submit metrics.
 # Goals
 
 - Submit the following metrics:
-  - `github_repo.stargazers`: Total number of repository stargazers.
-  - `github_repo.watchers`: Total number of repository watchers.
-  - `github_repo.contributors`: Total number of repository contributors.
-  - `github_repo.subscribers`: Total number of repository subscribers.
+  - `github_repo.stargazers`: The total number of repository stargazers.
+  - `github_repo.watchers`: The total number of repository watchers.
+  - `github_repo.contributors`: The total number of repository contributors.
+  - `github_repo.subscribers`: The total number of repository subscribers.
 - Create a test to assert metric submission.
 
 # Hints

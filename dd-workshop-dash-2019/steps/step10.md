@@ -2,7 +2,7 @@ You can find our solution in the `/workspace/solution` folder.
 
 # Check 
 
-Edit the `github_repo/datadog_checks/github_repo/github_repo.py` file and submit metrics collected as follow:
+Edit the `github_repo/datadog_checks/github_repo/github_repo.py` file and submit metrics collected:
 
 ![github_repo-7](https://raw.githubusercontent.com/gzussa/katacoda/master/dd-workshop-dash-2019/assets/github_repo-7.png)
 
